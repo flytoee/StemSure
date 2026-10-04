@@ -24,7 +24,9 @@ run_record.json保存输入SHA、参数、种子、实际测高、依赖版本�
 requirements-tested.txt保存本次验证的固定依赖版本，不是含全部平台构建哈希的通用锁文件。
 许可：LICENSE.txt为作者已批准的论文复现许可，允许复现和核查本文免费使用；其他科研或商业用途须取得书面授权。这是限制用途的源码可见许可，不称通常意义的开源许可。
 授权联系：Qianxi Qu，qqx@caf.ac.cn；Zifeng Tan，13588391788@139.com；Qifu Luan，qifu.luan@caf.ac.cn。联系不等于获得授权，也不意味着必定收费。
-第三方依赖和真实森林数据遵循各自许可；包内演示点云为合成数据。CITATION.txt提供作者、软件版本及当前稿件题名；GitHub仓库：https://github.com/flytoee/StemSure。软件DOI尚未分配。
+第三方依赖和真实森林数据遵循各自许可；包内演示点云为合成数据。CITATION.txt提供作者、软件版本及当前稿件题名；GitHub仓库：https://github.com/flytoee/StemSure。软件DOI：https://doi.org/10.5281/zenodo.23140584。
 本轮整理：统一入口、目录归属、严格JSON、环境来源记录和中英文说明。拟合、筛选阈值、候选生成及关联字段保持；历史论文结果不改。
 
 0.5.4发布整理：正式许可、论文最终题名、GitHub仓库元数据和论文0.5.1复现文件。克隆仓库后运行python -m pip install .；演示命令python examples/run_example.py。
+
+软件作者：Qianxi Qu（屈千喜）。软件引用和关联论文的七位作者名单分别列于CITATION.txt。Zenodo：https://doi.org/10.5281/zenodo.23140584

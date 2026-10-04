@@ -1,19 +1,12 @@
-StemSure 0.5.4
-Authors: Qianxi Qu; Xianyin Ding; Zhuo Wang; Lu Liu; Yiran Liu; Zifeng Tan; Qifu Luan.
-Associated manuscript: StemSure: Software for diameter at breast height measurement and quality control using forest LiDAR point clouds.
-Manuscript status: working manuscript; no publication DOI assigned here.
-Software release date: 2026-10-05.
-Repository URL: https://github.com/flytoee/StemSure.
-Software DOI: not yet assigned.
-When using this software for permitted paper verification, report version 0.5.4 and the source fingerprint or wheel SHA from release_manifest.json. Cite the final associated manuscript once published. A manuscript version or proposed repository must not be cited as an already issued journal article or DOI.
+Software citation
+Qu, Qianxi (2026). StemSure: Software for diameter at breast height measurement and quality control using forest LiDAR point clouds (Version 0.5.4). Zenodo. https://doi.org/10.5281/zenodo.23140584
+Software author: Qianxi Qu. ORCID: https://orcid.org/0009-0005-4741-5670
+Publication date: 2026-10-05.
+Repository: https://github.com/flytoee/StemSure
+License: StemSure Paper Reproduction License 1.0; see LICENSE.txt.
 Permission contact: Qianxi Qu, qqx@caf.ac.cn.
-Corresponding-author contacts: Zifeng Tan, 13588391788@139.com; Qifu Luan, qifu.luan@caf.ac.cn.
 
-Author affiliations:
-Qianxi Qu: Research Institute of Subtropical Forestry, Chinese Academy of Forestry, Hangzhou 311400, China; Zhejiang Key Laboratory of Forest Genetics and Breeding, Hangzhou 311400, China; Key Laboratory of National Forestry and Grassland Administration on Forest Cultivation and Management in East China, Hangzhou 311400, China
-Xianyin Ding: Research Institute of Subtropical Forestry, Chinese Academy of Forestry, Hangzhou 311400, China; Zhejiang Key Laboratory of Forest Genetics and Breeding, Hangzhou 311400, China; Key Laboratory of National Forestry and Grassland Administration on Forest Cultivation and Management in East China, Hangzhou 311400, China
-Zhuo Wang: Polytechnic Institute, Zhejiang University, Hangzhou 310058, China
-Lu Liu: Research Institute of Subtropical Forestry, Chinese Academy of Forestry, Hangzhou 311400, China
-Yiran Liu: Sichuan Zhengchao Technology Co., Ltd., Chengdu 610094, China
-Zifeng Tan: Research Institute of Subtropical Forestry, Chinese Academy of Forestry, Hangzhou 311400, China; Zhejiang Key Laboratory of Forest Genetics and Breeding, Hangzhou 311400, China; Key Laboratory of National Forestry and Grassland Administration on Forest Cultivation and Management in East China, Hangzhou 311400, China
-Qifu Luan: Research Institute of Subtropical Forestry, Chinese Academy of Forestry, Hangzhou 311400, China; Zhejiang Key Laboratory of Forest Genetics and Breeding, Hangzhou 311400, China; Key Laboratory of National Forestry and Grassland Administration on Forest Cultivation and Management in East China, Hangzhou 311400, China
+Associated manuscript authors: Qianxi Qu; Xianyin Ding; Zhuo Wang; Lu Liu; Yiran Liu; Zifeng Tan; Qifu Luan.
+The associated manuscript has seven authors; the software deposit has one creator. Manuscript authorship and software authorship are distinct. Cite the journal article when published.
+
+The v0.5.4 tagged release and its archived files retain their original bytes. This branch corrects software citation metadata after Zenodo publication. The preserved 0.5.1 artifacts reproduce the evaluated measurements.

@@ -1,3 +1,7 @@
+Software author: Qianxi Qu (Software).
+Zenodo software DOI: 10.5281/zenodo.23140584
+The following roles refer to the associated seven-author manuscript.
+
 StemSure associated-manuscript author contributions (CRediT)
 Qianxi Qu: Conceptualization, Writing - original draft, Methodology, Visualization, Software, Formal analysis.
 Xianyin Ding: Writing - review & editing, Data curation, Supervision.

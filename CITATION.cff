@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite this software using the citation below."
+type: software
+title: "StemSure: Software for diameter at breast height measurement and quality control using forest LiDAR point clouds"
+authors:
+  - family-names: Qu
+    given-names: Qianxi
+    orcid: "https://orcid.org/0009-0005-4741-5670"
+    affiliation: "Research Institute of Subtropical Forestry, Chinese Academy of Forestry"
+version: "0.5.4"
+date-released: "2026-10-05"
+doi: "10.5281/zenodo.23140584"
+url: "https://doi.org/10.5281/zenodo.23140584"
+repository-code: "https://github.com/flytoee/StemSure"
+license: "LicenseRef-StemSure-Paper-Reproduction"

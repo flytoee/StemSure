@@ -1,3 +1,6 @@
+Citation metadata update, 2026-10-05
+Registered published Zenodo DOI 10.5281/zenodo.23140584 and software author Qianxi Qu, following author confirmation. Added machine-readable CITATION.cff. The associated manuscript keeps seven authors. No measurement code, version constants, tagged release, or published archive was changed.
+
 StemSure 0.5.4, 2026-10-05
 First public GitHub publication: approved paper-reproduction license, final manuscript title, repository metadata, seven-author attribution and plain-text documentation.
 Measurement implementation is identical to 0.5.3 except two version constants.

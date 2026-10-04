@@ -9,15 +9,7 @@ description = "Reference-free forest point-cloud DBH measurement and review deci
 readme = {file = "README_EN.txt", content-type = "text/plain"}
 license = "LicenseRef-StemSure-Paper-Reproduction"
 license-files = ["LICENSE.txt"]
-authors = [
-  {name = "Qianxi Qu", email = "qqx@caf.ac.cn"},
-  {name = "Xianyin Ding", email = "brighten@caf.ac.cn"},
-  {name = "Zhuo Wang", email = "22560287@zju.edu.cn"},
-  {name = "Lu Liu", email = "565688109@qq.com"},
-  {name = "Yiran Liu", email = "yiran.lau.2020@gmail.com"},
-  {name = "Zifeng Tan", email = "13588391788@139.com"},
-  {name = "Qifu Luan", email = "qifu.luan@caf.ac.cn"},
-]
+authors = [{name = "Qianxi Qu", email = "qqx@caf.ac.cn"}]
 maintainers = [{name = "Qianxi Qu", email = "qqx@caf.ac.cn"}]
 requires-python = ">=3.12"
 dependencies = [
@@ -40,3 +32,4 @@ where = ["src"]
 [project.urls]
 Repository = "https://github.com/flytoee/StemSure"
 Issues = "https://github.com/flytoee/StemSure/issues"
+Archive = "https://doi.org/10.5281/zenodo.23140584"

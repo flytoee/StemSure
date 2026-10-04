@@ -32,7 +32,7 @@ keep means the current geometric checks passed; review calls for inspection; rej
 run_record.json identifies input SHA256, settings, seed, actual heights, dependency versions, and a source-code fingerprint. failure.json describes processing exceptions. Output directories are atomically reserved so a competing process cannot write into another run's directory.
 Licensing and citation
 LICENSE.txt contains the author-approved paper-reproduction license. Free use covers reproduction and verification of the associated paper; unrelated research and commercial use require written author authorization. This is source-available licensing with use restrictions, not an OSI open-source license. Third-party dependencies and data retain their own terms.
-CITATION.txt records authors, version, and manuscript title. GitHub repository: https://github.com/flytoee/StemSure. Software releases and frozen paper-reproduction artifacts are listed there. A software DOI has not been assigned.
+CITATION.txt records authors, version, and manuscript title. GitHub repository: https://github.com/flytoee/StemSure. Software releases and frozen paper-reproduction artifacts are listed there. Software DOI: https://doi.org/10.5281/zenodo.23140584.
 Changes in 0.5.4
 Author-approved license, final manuscript title, repository metadata, synthetic example, and frozen paper-reproduction artifacts prepared for GitHub publication. The measurement implementation is retained from 0.5.3. Processing improvements listed below are inherited from 0.5.2.
 Unified entry points; output-directory ownership; strict JSON exception records; dependency and code provenance; bilingual plain-text documentation and publication metadata. Circle fitting, preprocessing, candidate generation, decision thresholds, and coordinate semantics remain unchanged. The known floating-point sensitivity of proposal grid bins is retained and documented in OUTPUT_FIELDS.txt.
@@ -40,3 +40,5 @@ Contacts
 Qianxi Qu: qqx@caf.ac.cn
 Zifeng Tan: 13588391788@139.com
 Qifu Luan: qifu.luan@caf.ac.cn
+
+Software author: Qianxi Qu. Zenodo: https://doi.org/10.5281/zenodo.23140584. Software citation and associated-manuscript authors are listed separately in CITATION.txt.
