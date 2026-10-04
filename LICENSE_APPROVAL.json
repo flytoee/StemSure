@@ -4,7 +4,7 @@
   "approval_date": "2026-10-04",
   "status": "APPROVED_BY_AUTHORIZED_AUTHOR",
   "authorization_evidence_zh": "用户明确确认有权授权，并批准按论文复现免费、其他科研及商业用途联系作者的许可公开上传。",
-  "license_sha256": "45a584eb7ba21d9fa46284920a188577bee18a92736809df2ed7216e68827183",
+  "license_sha256": "9b8b7812ac7a857632bd4771a113287c7699e437703b2e287fe318d4178b7e99",
   "permission_contact": "Qianxi Qu <qqx@caf.ac.cn>",
   "osi_open_source": false
 }
