@@ -1,0 +1,8 @@
+StemSure associated-manuscript author contributions (CRediT)
+Qianxi Qu: Conceptualization, Writing - original draft, Methodology, Visualization, Software, Formal analysis.
+Xianyin Ding: Writing - review & editing, Data curation, Supervision.
+Zhuo Wang: Investigation.
+Lu Liu: Investigation.
+Yiran Liu: Validation.
+Zifeng Tan: Writing - review & editing, Project administration, Supervision, Resources.
+Qifu Luan: Funding acquisition, Writing - review & editing, Project administration, Supervision, Resources.

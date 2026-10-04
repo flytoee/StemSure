@@ -1,0 +1,33 @@
+{
+  "paper_title": "StemSure: Software for diameter at breast height measurement and quality control using forest LiDAR point clouds",
+  "manuscript_version": 21,
+  "paper_result_version": "0.5.1",
+  "current_software_version": "0.5.4",
+  "central_height_m": 1.3,
+  "default_seed": 20260927,
+  "data_sources": {
+    "TEMPL": "https://doi.org/10.4231/5DGX-DP81",
+    "Wytham_prepared": "https://doi.org/10.5281/zenodo.16875688",
+    "Wytham_original": "https://doi.org/10.5281/zenodo.7307956",
+    "LAUT": "https://doi.org/10.5281/zenodo.3698956"
+  },
+  "frozen_artifacts": [
+    {
+      "path": "stemsure-0.5.1-frozen-source.zip",
+      "sha256": "c057529c932b2ee83c74a8dff3419f181d8b547dc6111a84220b1ecffe513ae1"
+    },
+    {
+      "path": "stemsure-0.5.1-py3-none-any.whl",
+      "sha256": "f3550bcbee9454a8cb5bc72cfb8fdde55a8deb1aa90f849da9ceea20c89b3581"
+    },
+    {
+      "path": "v0.5.1_original_manifest.json",
+      "sha256": "d509f3534f1531a8a6a97111e1d79981baa6f3e83bbadce4eaa23ab1f538a988"
+    },
+    {
+      "path": "v0.5.1_原使用说明.txt",
+      "sha256": "b5465251112a6931b3290b8af044bd66a1f43061acb81bfd11ddd22fb58b1003"
+    }
+  ],
+  "scope_zh": "本仓库发布测量软件、合成演示与论文版本0.5.1原件；源数据由原提供者托管。完整逐树评分与图表复算包作为论文补充材料交付，未宣称本仓库已包含全部论文分析。"
+}

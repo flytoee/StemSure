@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-02",
+  "version": "0.5.1",
+  "files": [
+    {
+      "path": "installation_verification.json",
+      "sha256": "a9ce11eade5b740e29b5c0e7dd7806a661d7361742f548c62c51e4bd8e8876c4"
+    },
+    {
+      "path": "README_中文.txt",
+      "sha256": "b5465251112a6931b3290b8af044bd66a1f43061acb81bfd11ddd22fb58b1003"
+    },
+    {
+      "path": "stemsure-0.5.1-py3-none-any.whl",
+      "sha256": "f3550bcbee9454a8cb5bc72cfb8fdde55a8deb1aa90f849da9ceea20c89b3581"
+    },
+    {
+      "path": "源码.zip",
+      "sha256": "c057529c932b2ee83c74a8dff3419f181d8b547dc6111a84220b1ecffe513ae1"
+    },
+    {
+      "path": "examples/demo_unclassified.las",
+      "sha256": "8b6d136e33787a32c95059c7b39f1b6d226d1cd75707f8b305c8697d7649e13f"
+    }
+  ]
+}

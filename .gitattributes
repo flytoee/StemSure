@@ -1,0 +1,9 @@
+* text=auto
+*.py text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.whl binary
+*.zip binary
+*.las binary
+reproducibility/* -text

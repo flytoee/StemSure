@@ -1,0 +1,15 @@
+Paper-result reproduction
+Associated manuscript: StemSure: Software for diameter at breast height measurement and quality control using forest LiDAR point clouds
+The evaluated measurement defaults are reproduced by the preserved 0.5.1 wheel and source snapshot in this directory. Artifact bytes are unchanged; SHA256 values are in index.json. The root LICENSE.txt governs the supplied StemSure code and binaries. Historical version dates are not GitHub publication dates.
+
+Use a separate Python 3.12 environment for the frozen version.
+python -m pip install stemsure-0.5.1-py3-none-any.whl
+stemsure-reliable --input plot.las --output new_run --ground-class all --stem-class all --seed 20260927 --breast-height 1.30
+The field reference table is used after measurement for evaluation. Plot inputs and reference protocols are described in the paper. Follow each data provider's license and instructions.
+
+TEMPL: https://doi.org/10.4231/5DGX-DP81
+Wytham prepared clouds: https://doi.org/10.5281/zenodo.16875688
+Wytham original census: https://doi.org/10.5281/zenodo.7307956
+LAUT: https://doi.org/10.5281/zenodo.3698956
+
+The complete per-tree evaluation and figure-recomputation materials accompany the manuscript supplement. This repository provides the measurement component and its frozen paper version.

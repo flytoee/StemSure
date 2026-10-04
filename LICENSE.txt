@@ -1,0 +1,20 @@
+StemSure Paper Reproduction License, version 1.0
+LicenseRef-StemSure-Paper-Reproduction
+Approved for public release on 4 October 2026 by the author who confirmed authorization to grant these permissions.
+Terms:
+1. Purpose and scope
+This license applies to StemSure source code and software binaries supplied by the authors of the associated manuscript, "StemSure: Software for diameter at breast height measurement and quality control using forest LiDAR point clouds". It does not relicense third-party dependencies or third-party datasets.
+2. Free paper reproduction
+Permission is granted without a license fee to download, inspect, make local copies, execute, and locally modify the Software solely to reproduce or independently verify the methods, experiments, results, and reported conclusions of the associated manuscript. This includes verification by reviewers and research institutions. Such users may publish verification results, including critical or negative findings, with appropriate attribution.
+3. Other research and commercial use
+Use for a separate research project, analysis of new data for another study, incorporation into another research tool, provision of services, commercial development, or any other commercial use requires prior written authorization. Contact Qianxi Qu at qqx@caf.ac.cn; corresponding-author contacts are Zifeng Tan at 13588391788@139.com and Qifu Luan at qifu.luan@caf.ac.cn. Contacting an author does not itself grant permission or determine a fee.
+4. Redistribution
+The free reproduction permission does not authorize public redistribution of the Software, modified Software, or packaged binaries. Local copies may be shared with collaborators solely for the same verification exercise, retaining these terms and notices. Public reports may include necessary short code excerpts and verification outputs with attribution. Further redistribution requires prior written authorization.
+5. Attribution
+Retain the software name, version, authorship information, and license notice in local copies. Cite the associated manuscript when its bibliographic details become available, and record the software version used. Do not imply endorsement by the authors without written permission.
+6. Third-party materials and data
+Dependencies retain their own licenses. Example point clouds in this package are synthetic. Public forest point clouds used in the associated study remain subject to their original providers' licenses and are not included or sublicensed here. Measurement outputs are not automatically placed under this source-code license; rights in input data and outputs must be assessed separately.
+7. Warranty
+The Software is provided as is, without warranties of accuracy, fitness for a particular purpose, or uninterrupted operation. To the extent permitted by applicable law, the rights holder and contributors are not liable for damages arising from use of the Software. Nothing in these terms limits rights that cannot be waived under applicable law.
+8. Approval record
+The author confirmed authority to authorize public release and approved these terms on 4 October 2026. The approval and license-text SHA256 are recorded in LICENSE_APPROVAL.json. Requests for uses beyond paper reproduction and verification should be sent to the contacts in Section 3.

@@ -1,0 +1,16 @@
+StemSure 0.5.1 使用说明
+日期：2026年10月2日。
+用途：从以米为单位的LAS或LAZ点云提取树干候选的胸径、位置、几何支撑和测量状态。
+安装：python -m pip install stemsure-0.5.1-py3-none-any.whl
+未分类点云：stemsure-reliable --input plot.las --output new_run --ground-class all --stem-class all
+按1.37米外业规程测量：在上述命令后加 --breast-height 1.37。
+默认中心测高1.30米，相邻高度分别低0.10米和高0.10米。拟合范围5至70厘米，候选裁剪半径0.45米。
+已归一化的点云：加 --normalized --stem-class all；有分类点云按实际地面、植被分类指定参数。
+Python调用：from stemsure_reliable.cli import run；以Path对象传入input_path和output_dir；ground_class=None、stem_class=None、normalized=False、seed=20260927、trials=20000；breast_height_m=1.37可指定测高。
+decisions.csv中的x_m、y_m是候选位置，保留原版空间关联语义；proposal_x_m、proposal_y_m明确表示该位置；fitted_center_x_m、fitted_center_y_m是中心截面的拟合圆心。
+breast_height_m记录实际中心测高。fit_failure_lower、fit_failure_central、fit_failure_upper表示下、中、上截面的处理结果。旧版带120、130、140后缀的字段保留供兼容读取。
+截面文件按实际测高命名；1.37米运行输出candidates_h127.csv、candidates_h137.csv、candidates_h147.csv。每个文件还有measurement_height_m列。
+keep表示通过当前几何检查；review表示需要检查；reject表示中心截面未取得测量。单株身份通过坐标和目标树清单关联。
+新输出目录用于保护已有结果。缺失输入或处理错误写入failure.json并返回退出码2。
+0.5.0原交付和实验结果保留。0.5.1的默认输出在完整4D13样地及合成演示上核对一致。版本更新增加接口与输出信息，未重新选择拟合参数或极差阈值。
+公开仓库及许可证待作者最终确定。

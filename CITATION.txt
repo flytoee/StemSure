@@ -1,0 +1,19 @@
+StemSure 0.5.4
+Authors: Qianxi Qu; Xianyin Ding; Zhuo Wang; Lu Liu; Yiran Liu; Zifeng Tan; Qifu Luan.
+Associated manuscript: StemSure: Software for diameter at breast height measurement and quality control using forest LiDAR point clouds.
+Manuscript status: working manuscript; no publication DOI assigned here.
+Software release date: 2026-10-05.
+Repository URL: https://github.com/flytoee/StemSure.
+Software DOI: not yet assigned.
+When using this software for permitted paper verification, report version 0.5.4 and the source fingerprint or wheel SHA from release_manifest.json. Cite the final associated manuscript once published. A manuscript version or proposed repository must not be cited as an already issued journal article or DOI.
+Permission contact: Qianxi Qu, qqx@caf.ac.cn.
+Corresponding-author contacts: Zifeng Tan, 13588391788@139.com; Qifu Luan, qifu.luan@caf.ac.cn.
+
+Author affiliations:
+Qianxi Qu: Research Institute of Subtropical Forestry, Chinese Academy of Forestry, Hangzhou 311400, China; Zhejiang Key Laboratory of Forest Genetics and Breeding, Hangzhou 311400, China; Key Laboratory of National Forestry and Grassland Administration on Forest Cultivation and Management in East China, Hangzhou 311400, China
+Xianyin Ding: Research Institute of Subtropical Forestry, Chinese Academy of Forestry, Hangzhou 311400, China; Zhejiang Key Laboratory of Forest Genetics and Breeding, Hangzhou 311400, China; Key Laboratory of National Forestry and Grassland Administration on Forest Cultivation and Management in East China, Hangzhou 311400, China
+Zhuo Wang: Polytechnic Institute, Zhejiang University, Hangzhou 310058, China
+Lu Liu: Research Institute of Subtropical Forestry, Chinese Academy of Forestry, Hangzhou 311400, China
+Yiran Liu: Sichuan Zhengchao Technology Co., Ltd., Chengdu 610094, China
+Zifeng Tan: Research Institute of Subtropical Forestry, Chinese Academy of Forestry, Hangzhou 311400, China; Zhejiang Key Laboratory of Forest Genetics and Breeding, Hangzhou 311400, China; Key Laboratory of National Forestry and Grassland Administration on Forest Cultivation and Management in East China, Hangzhou 311400, China
+Qifu Luan: Research Institute of Subtropical Forestry, Chinese Academy of Forestry, Hangzhou 311400, China; Zhejiang Key Laboratory of Forest Genetics and Breeding, Hangzhou 311400, China; Key Laboratory of National Forestry and Grassland Administration on Forest Cultivation and Management in East China, Hangzhou 311400, China

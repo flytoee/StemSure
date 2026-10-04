@@ -1,0 +1,5 @@
+StemSure third-party and data notices
+This software imports NumPy, pandas, SciPy, laspy and lazrs. They are installed separately and retain their own licenses; StemSure's use restrictions do not replace those licenses.
+Build tooling setuptools and wheel is installed separately. This source archive does not vendor dependency source code or binaries.
+The demonstration LAS is the synthetic two-cylinder example shipped with StemSure 0.5.0; it is not an external forest dataset.
+TEMPL, Wytham and LAUT data used in research are not included in this delivery. Their providers' original access and reuse terms continue to apply.

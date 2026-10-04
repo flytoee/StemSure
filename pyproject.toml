@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stemsure"
+version = "0.5.4"
+description = "Reference-free forest point-cloud DBH measurement and review decisions"
+readme = {file = "README_EN.txt", content-type = "text/plain"}
+license = "LicenseRef-StemSure-Paper-Reproduction"
+license-files = ["LICENSE.txt"]
+authors = [
+  {name = "Qianxi Qu", email = "qqx@caf.ac.cn"},
+  {name = "Xianyin Ding", email = "brighten@caf.ac.cn"},
+  {name = "Zhuo Wang", email = "22560287@zju.edu.cn"},
+  {name = "Lu Liu", email = "565688109@qq.com"},
+  {name = "Yiran Liu", email = "yiran.lau.2020@gmail.com"},
+  {name = "Zifeng Tan", email = "13588391788@139.com"},
+  {name = "Qifu Luan", email = "qifu.luan@caf.ac.cn"},
+]
+maintainers = [{name = "Qianxi Qu", email = "qqx@caf.ac.cn"}]
+requires-python = ">=3.12"
+dependencies = [
+  "numpy>=2.0,<3",
+  "pandas>=2.2,<3",
+  "scipy>=1.13,<2",
+  "laspy[lazrs]>=2.5,<3",
+]
+
+[project.optional-dependencies]
+research = ["openpyxl>=3.1"]
+
+[project.scripts]
+stemsure = "stemsure_reliable.cli:main"
+stemsure-reliable = "stemsure_reliable.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+Repository = "https://github.com/flytoee/StemSure"
+Issues = "https://github.com/flytoee/StemSure/issues"

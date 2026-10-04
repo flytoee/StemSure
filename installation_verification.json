@@ -1,0 +1,36 @@
+{
+  "version": "0.5.4",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "install_public_wheel",
+      "status": "PASS"
+    },
+    {
+      "check": "dependency_check",
+      "status": "PASS"
+    },
+    {
+      "check": "version_and_install_path",
+      "status": "PASS"
+    },
+    {
+      "check": "four_release_regression_tests",
+      "status": "PASS"
+    },
+    {
+      "check": "synthetic_demo",
+      "status": "PASS",
+      "receipt_reused_from_same_revision": true
+    }
+  ],
+  "python_files_compared": 22,
+  "measurement_implementation_unchanged_except_version_constants": true,
+  "line_endings_normalized_to_LF": true,
+  "synthetic_measurement_tables_exact_vs_0_5_3": true,
+  "real_inputs_rerun_this_revision": 0,
+  "previous_real_input_validation_version": "0.5.2",
+  "paper_result_reproduction_version": "0.5.1",
+  "wheel_sha256": "acb2dc54d84b1c8e95fb93e8ca048c789596372bfc977db301e1aa6d1922ac7d",
+  "license_status": "APPROVED_BY_AUTHORIZED_AUTHOR"
+}

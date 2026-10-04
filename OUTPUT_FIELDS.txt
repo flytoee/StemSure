@@ -1,0 +1,23 @@
+StemSure 0.5.4 output schema
+Input coordinates and exported locations: meters. dbh_cm and residual fields: centimeters. Angle coverage: degrees.
+candidate_id: integer identifier within this run. Association to a field tree requires an explicit external rule.
+x_m, y_m: proposal location; retained for original association compatibility.
+proposal_x_m, proposal_y_m: explicit duplicates of x_m and y_m.
+fitted_center_x_m, fitted_center_y_m: central-section fitted circle center. Missing if fitting fails.
+dbh_cm: fitted central-section diameter, including available review measurements; missing for central fitting failure. Select decision=keep to obtain the software's accepted measurement subset.
+decision: keep, review, or reject. keep passes current geometry checks; review requires inspection; reject lacks a central diameter.
+reason: processing or review reason. Empty for an ordinary keep record.
+breast_height_m: actual central measurement height above ground.
+fit_failure_lower, fit_failure_central, fit_failure_upper: section processing codes; legacy fields ending in 120/130/140 are retained and represent section roles even for nondefault heights.
+height_range_cm: maximum minus minimum fitted diameter across the three sections.
+proposal_score_130: central role's proposal support score.
+vote_support_130: supporting circle votes; occupied_angle_deg_130: angular occupancy; inlier_ratio_130: fitted inlier fraction; median_residual_cm_130: radial residual median.
+review_priority: heuristic review ordering score, not a calibrated failure probability or measured manual workload.
+dbh_status: measured, fit_failed, or limit_hit_unreliable. Numeric fit-limit warnings do not detect every true stem exceeding the fit range.
+candidates_h*.csv: actual section-height exports containing fitted parameters, evidence scores and measurement_height_m. At 1.37 m the files are h127, h137, h147. These files do not contain all original section points or inlier indices.
+proposal_grids.npz and ground_surface.npz: proposal evidence and ground estimate for inspection; ground_surface is omitted for normalized input.
+decisions_core_v05.csv, decisions_upper_v05.csv and run_record_core_v05.json: intermediate results before the fixed diameter-limit guards. v05 is a compatibility filename, not the current software version. The final accepted states are in decisions.csv.
+run_record.json: completion status, input SHA256, settings, version, heights and runtime provenance. runtime_seconds covers core processing; runtime_including_guards_seconds covers the API run including guards but excludes interpreter startup/imports.
+runtime_environment: dependency versions, Python/platform information, hashes of package source files and a combined fingerprint. source_bundle_sha256 hashes a canonical map of Python filenames to hashes; it is not the compressed wheel SHA.
+failure.json: owned-run processing exception and original options. Invalid nonfinite numbers are represented as strings NaN, Infinity or -Infinity so the file remains strict JSON.
+Coordinate sensitivity: a 500000 m translation of the synthetic demonstration changed one proposal by one 0.10 m cell per axis while fitted centers, states and diameters remained stable. Grid-boundary floating-point binning is retained for 0.5.1 compatibility. Keep both position types when inspecting association sensitivity.
